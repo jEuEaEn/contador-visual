@@ -1,0 +1,56 @@
+
+html{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+
+}
+
+
+
+main{
+    
+    max-width: 70vh;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input{
+
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    text-align: center;
+    margin: 10px;
+    font-size: 50px;
+    background-color: rgba(104, 104, 104, 0.479);
+    border-radius: 10px;
+
+}
+
+.mayor{
+
+    background-color: rgb(116, 211, 255);
+
+}
+
+.menor{
+
+    background-color: rgb(148, 255, 106);
+    
+}
