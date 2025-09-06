@@ -21,10 +21,12 @@ function calculando(){
 
     }else if( primero.value == segundo.value){
 
-        primero.classList.add("mayor")
+        primero.classList.remove("mayor")
         primero.classList.remove("menor")
-        segundo.classList.add("mayor")
+        segundo.classList.remove("mayor")
         segundo.classList.remove("menor")
+        primero.classList.add("igual")
+        segundo.classList.add("igual")
 
     }
 

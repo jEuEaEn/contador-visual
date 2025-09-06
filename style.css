@@ -40,17 +40,27 @@ input{
     font-size: 50px;
     background-color: rgba(104, 104, 104, 0.479);
     border-radius: 10px;
+    transition: 1s;
 
 }
 
 .mayor{
 
     background-color: rgb(116, 211, 255);
+    margin-bottom: 50px;
 
+}
+
+.igual{
+
+    background-color: rgba(104, 104, 104, 0.479);
+    margin-bottom: 0px;
+    
 }
 
 .menor{
 
     background-color: rgb(148, 255, 106);
+    margin-bottom: -50px;
     
 }
